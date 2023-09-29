@@ -1,0 +1,40 @@
+:root {
+    --primary-color: #7A95E3;
+    --primary-hover-color: #899fe2;
+    --primary-disabled-color: #414451;
+    --primary-disabled-text-color: #666871;
+}
+
+body {
+    background-color: #1C1B1F;
+    color: #FFFFFF;
+}
+
+.bg-header {
+    border-bottom-color: #514e4e;
+}
+
+.divider {
+    background: #FFFFFF;
+    opacity: 0.2;
+}
+
+.checkbox>input {
+    background-color: #414451;
+}
+
+.checkbox>input:active, .checkbox>input:checked {
+    border-color: transparent;
+}
+
+.checkbox>input:checked+span::before {
+    color: #E5E6E8;
+}
+
+.outline-button:hover {    
+    background-color: #252429;
+}
+
+.rounded-card {
+    background: #282A32;
+}
